@@ -321,6 +321,81 @@ opacity: 0.85;
   }
 }
 
+/* seo-case sektion */
+.seo-case {
+  background-color: #f4f6fb;
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.seo-case-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.seo-case h2 {
+  font-size: 2em;
+  color: #1f2937;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.seo-case h3 {
+  font-size: 2em;
+  color: #1f2937;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.seo-case p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.seo-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.seo-keywords span {
+  background-color: #5183ed;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.seo-case h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.seo-case ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+.seo-case li {
+  margin-bottom: 10px;
+}
+
+.seo-result {
+  font-size: 1.1em;
+  background-color: #d1fae5;
+  padding: 15px 20px;
+  border-left: 5px solid #10b981;
+  border-radius: 8px;
+}
+
+
 
 /* dette afsnit til kontakt undersiden */
 .contact-hero {
@@ -509,7 +584,7 @@ grid-template-columns: 1fr;
   .hero-image {
 background: rgba(255, 255, 255, 0);
 border-radius: 5px;
-width: 400px;
+width: 350px;
 height: auto;
 box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 transition: transform 0.2s ease;
