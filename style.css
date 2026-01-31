@@ -589,7 +589,8 @@ height: auto;
 box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 transition: transform 0.2s ease;
 box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-margin-left: 20px;
+text-align: center;
+margin: auto;
 }
 
   /* NAV */
