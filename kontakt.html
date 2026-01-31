@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vi hjælper virksomheder med SEO, leadgenerering, Meta Ads og hjemmesider der konverterer. Book en gratis strategi-snak hos SONDERBY MARKETING.">
+
+  <title>Kontakt | SONDERBY MARKETING</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="bileder/SBM_LOGO_NOB.png">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div>
+    <a href="index.html">
+     <img src="bileder/SBM_LOGO_NOB_E.png" class="logo">
+    </a>
+</div>
+<div class="burger" id="burger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Hjem</a>
+      <a href="services.html">Services</a>
+      <a href="omos.html">Om os</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="contact-hero">
+  <div class="contact-hero-inner">
+    <span class="tag">Kontakt</span>
+    <h1>Lad os tale om<br>din vækst</h1>
+    <p>
+      Fortæl os om din forretning – så ser vi, hvordan vi kan hjælpe
+      med flere leads, bedre annoncer og stærkere performance.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT SPLIT -->
+<section class="contact-split">
+  
+  <!-- TEXT / INFO -->
+  <div class="contact-info">
+    <h2>Book en gratis snak</h2>
+    <p>
+      Samtalen er helt uforpligtende. Vi gennemgår din nuværende situation
+      og giver konkrete input til, hvor der er potentiale.
+    </p>
+
+    <div class="contact-points">
+      <div>
+        <strong>📞 Telefon</strong>
+        <p>51 93 74 84</p>
+      </div>
+
+      <div>
+        <strong>📧 Email</strong>
+        <p>kontakt@sonderbymarketing.dk</p>
+      </div>
+
+      <div>
+        <strong>⏱ Svartid</strong>
+        <p>Vi svarer typisk indenfor 24 timer</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORM -->
+  <div class="contact-form">
+    <form>
+      <h3>Send os en besked</h3>
+
+      <label>
+        Navn
+        <input type="text" placeholder="Dit navn" required>
+      </label>
+
+      <label>
+        Email
+        <input type="email" placeholder="Din email" required>
+      </label>
+
+      <label>
+        Besked
+        <textarea rows="5" placeholder="Fortæl kort om din forretning"></textarea>
+      </label>
+
+      <button class="btn" type="submit">Send besked</button>
+    </form>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 · SONDERBY MARKETING · Alle rettigheder forbeholdes
+</footer>
+
+<script>
+  const burger = document.getElementById("burger");
+  const navLinks = document.getElementById("navLinks");
+
+  burger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>

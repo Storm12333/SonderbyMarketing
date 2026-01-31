@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://sonderbymarketing.dk/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/omos.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/kontakt.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/leadgen.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/hjemmeside.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/seo.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/metaads.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/adcreatives.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sonderbymarketing.dk/content-creation.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
