@@ -1,3 +1,5 @@
+
+
 * {
 margin: 0;
 padding: 0;
@@ -30,7 +32,7 @@ color: inherit;
 
 /* ====== NAVIGATION ====== */
 header {
-background: radial-gradient(circle at top, #6366f1, #142959);
+background: radial-gradient(circle, #731622, #242462);
 color: white;
 }
 
@@ -46,9 +48,8 @@ align-items: center;
 
 
 .logo {
-height: 150px;
+height: 90px;
 width: auto;
-margin-top: -20px;
 }
 
 
@@ -76,6 +77,7 @@ justify-content: space-between;
 font-size: 2.8rem;
 line-height: 1.2;
 margin-bottom: 1rem;
+font-family: 'Michroma', sans-serif;
 }
 
 
@@ -129,6 +131,7 @@ text-align: center;
 text-align: center;
 font-size: 2.2rem;
 margin-bottom: 3rem;
+font-family: 'Michroma', sans-serif;
 }
 
 
@@ -166,7 +169,7 @@ opacity: 0.85;
 }
 
 #voresprocess {
-    background-color: #6366f1;
+    background-color: #1f1f47;
     color: white;
     margin: 20px;
     border-radius: 5px;
@@ -212,7 +215,7 @@ opacity: 0.85;
 /* Sektion til Om Os */
 /* ===== ABOUT HERO ===== */
 .about-hero {
-    background: linear-gradient( #6366f1, #193472);
+    background: linear-gradient( #731622, #242462);
   color: white;
   padding: 6rem 2rem;
 }
@@ -363,7 +366,7 @@ opacity: 0.85;
 }
 
 .seo-keywords span {
-  background-color: #5183ed;
+  background-color: #18284a;
   color: #fff;
   padding: 8px 15px;
   border-radius: 10px;
@@ -399,7 +402,7 @@ opacity: 0.85;
 
 /* dette afsnit til kontakt undersiden */
 .contact-hero {
-  background: linear-gradient( #6366f1, #193472);
+  background: linear-gradient( #880315, #242462);
   color: white;
   padding: 6rem 2rem;
 }
