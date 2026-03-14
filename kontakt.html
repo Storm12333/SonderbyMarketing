@@ -3,115 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Vi hjælper virksomheder med SEO, leadgenerering, Meta Ads og hjemmesider der konverterer. Book en gratis strategi-snak hos SONDERBY MARKETING.">
-
-  <title>Kontakt | SONDERBY MARKETING</title>
-
+  <meta name="description" content="Kontakt Sonderby Marketing — book en gratis strategi-snak og find ud af hvad vi kan gøre for din forretning.">
+  <title>Kontakt | Sonderby Marketing</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="kontakt.css">
   <link rel="icon" href="bileder/SBM_LOGO_NOB.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-  <nav class="nav">
-    <div>
-    <a href="index.html">
-     <img src="bileder/SBM_LOGO_V2.png" class="logo">
-    </a>
-</div>
-<div class="burger" id="burger">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">SONDERBY<span>.</span></div>
+    <div class="burger" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <div class="nav-links" id="navLinks">
       <a href="index.html">Hjem</a>
-      <a href="index.html">Services</a>
+      <a href="index.html#services">Services</a>
       <a href="omos.html">Om os</a>
       <a href="kontakt.html">Kontakt</a>
+      <a href="kontakt.html" class="nav-cta">Book opkald</a>
     </div>
   </nav>
-</header>
 
-<!-- HERO -->
-<section class="contact-hero">
-  <div class="contact-hero-inner">
-    <span class="tag">Kontakt</span>
-    <h1>Lad os tale om<br>din vækst</h1>
-    <p>
-      Fortæl os om din forretning – så ser vi, hvordan vi kan hjælpe
-      med flere leads, bedre annoncer og stærkere performance.
-    </p>
-  </div>
-</section>
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="page-hero-content">
+      <div class="hero-eyebrow">Kom i gang</div>
+      <h1>Lad os tale om<br>din <em>vækst</em></h1>
+      <p>Book en gratis og uforpligtende strategi-snak. Vi kigger på din situation og fortæller dig ærligt hvad vi kan gøre for dig — inden du beslutter noget som helst.</p>
+    </div>
+  </section>
 
-<!-- CONTACT SPLIT -->
-<section class="contact-split">
-  
-  <!-- TEXT / INFO -->
-  <div class="contact-info">
-    <h2>Book en gratis snak</h2>
-    <p>
-      Samtalen er helt uforpligtende. Vi gennemgår din nuværende situation
-      og giver konkrete input til, hvor der er potentiale.
-    </p>
+  <!-- CONTACT SPLIT -->
+  <section class="contact-section fade-in">
+    <div class="contact-glow"></div>
 
-    <div class="contact-points">
-      <div>
-        <strong>📞 Telefon</strong>
-        <p>51 93 74 84</p>
+    <!-- LEFT: Info -->
+    <div class="contact-info">
+      <span class="section-tag">Kontaktinformation</span>
+      <h2 class="section-title">Skriv eller<br><em>ring direkte</em></h2>
+      <p>Vi svarer inden for 24 timer på hverdage. Foretrækker du en hurtig snak frem for en mail, er du meget velkommen til at ringe.</p>
+
+      <div class="contact-points">
+        <a href="tel:51937484" class="contact-point">
+          <div class="contact-point-icon">→</div>
+          <div class="contact-point-body">
+            <div class="contact-point-label">Telefon</div>
+            <div class="contact-point-value">51 93 74 84</div>
+          </div>
+        </a>
+        <a href="mailto:sonderbymarketing@proton.me" class="contact-point">
+          <div class="contact-point-icon">→</div>
+          <div class="contact-point-body">
+            <div class="contact-point-label">Email</div>
+            <div class="contact-point-value">sonderbymarketing@proton.me</div>
+          </div>
+        </a>
+        <div class="contact-point no-link">
+          <div class="contact-point-icon">→</div>
+          <div class="contact-point-body">
+            <div class="contact-point-label">CVR</div>
+            <div class="contact-point-value">46240332</div>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <strong>📧 Email</strong>
-        <p>sonderbymarketing@proton.me</p>
-      </div>
-
-      <div>
-        <strong>⏱ Svartid</strong>
-        <p>Vi svarer typisk indenfor 24 timer</p>
+      <div class="contact-note">
+        <div class="contact-note-dot"></div>
+        <p>Gratis strategi-snak — ingen forpligtelse, ingen salgstale. Bare en ærlig snak om hvad der skal til for at vækste din forretning.</p>
       </div>
     </div>
-  </div>
 
-  <!-- FORM -->
-  <div class="contact-form">
-    <form>
-      <h3>Send os en besked</h3>
+    <!-- RIGHT: Form -->
+    <div class="contact-form-wrap">
+      <form class="contact-form" action="https://formspree.io/f/xqeydaaz" method="POST" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="navn">Dit navn</label>
+          <input type="text" id="navn" name="navn" placeholder="Fx Anders Jensen" required>
+        </div>
+        <div class="form-group">
+          <label for="virksomhed">Virksomhed</label>
+          <input type="text" id="virksomhed" name="virksomhed" placeholder="Fx Jensen & Co.">
+        </div>
+        <div class="form-group">
+          <label for="telefon">Telefonnummer</label>
+          <input type="tel" id="telefon" name="telefon" placeholder="Fx 12 34 56 78">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="din@email.dk" required>
+        </div>
+        <div class="form-group">
+          <label for="besked">Hvad kan vi hjælpe med?</label>
+          <textarea id="besked" name="besked" rows="4" placeholder="Fortæl kort om din virksomhed og hvad du ønsker hjælp til..."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          <span id="btn-text">Send besked →</span>
+        </button>
+        <div class="form-success" id="formSuccess">
+          Tak for din besked — vi vender tilbage inden for 24 timer.
+        </div>
+      </form>
+    </div>
 
-      <label>
-        Navn
-        <input type="text" placeholder="Dit navn" required>
-      </label>
+  </section>
 
-      <label>
-        Email
-        <input type="email" placeholder="Din email" required>
-      </label>
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2026 SONDERBY<span class="orange-dot">.</span> MARKETING · Alle rettigheder forbeholdes</span>
+    <span>CVR: 46240332 · Tlf: <a href="tel:51937484">51 93 74 84</a></span>
+  </footer>
 
-      <label>
-        Besked
-        <textarea rows="5" placeholder="Fortæl kort om din forretning"></textarea>
-      </label>
+  <script>
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+    burger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      burger.classList.toggle('open');
+    });
 
-      <button class="btn" type="submit">Send besked</button>
-    </form>
-  </div>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-</section>
-
-<footer>
-  © 2026 · SONDERBY MARKETING · Alle rettigheder forbeholdes · CVR: 46240332
-</footer>
-
-<script>
-  const burger = document.getElementById("burger");
-  const navLinks = document.getElementById("navLinks");
-
-  burger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
-</script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('btn-text');
+      const success = document.getElementById('formSuccess');
+      btn.textContent = 'Sender...';
+      setTimeout(() => {
+        btn.textContent = 'Sendt ✓';
+        success.style.display = 'block';
+        e.target.reset();
+      }, 800);
+    }
+  </script>
 
 </body>
 </html>
