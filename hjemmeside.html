@@ -3,114 +3,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Vi bygger og designer en hjemmeside til dig, helt fra bunden. Book en gratis strategi-snak hos SONDERBY MARKETING.">
-  <title>Hjemmesider | SONDERBY MARKETING</title>
+  <meta name="description" content="Moderne, hurtige og konverteringsoptimerede hjemmesider bygget fra bunden. Book en gratis snak hos Sonderby Marketing.">
+  <title>Konverterende Hjemmesider | Sonderby Marketing</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="service-page.css">
   <link rel="icon" href="bileder/SBM_LOGO_NOB.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <nav class="nav">
-    <div>
-      <a href="index.html">
-        <img src="bileder/SBM_LOGO_V2.png" class="logo">
-      </a>
-    </div>
-    <div class="burger" id="burger">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+  <nav>
+    <div class="nav-logo">SONDERBY<span>.</span></div>
+    <div class="burger" id="burger"><span></span><span></span><span></span></div>
     <div class="nav-links" id="navLinks">
       <a href="index.html">Hjem</a>
-      <a href="services.html">Services</a>
+      <a href="index.html#services">Services</a>
       <a href="omos.html">Om os</a>
       <a href="kontakt.html">Kontakt</a>
+      <a href="kontakt.html" class="nav-cta">Book opkald</a>
     </div>
   </nav>
-</header>
 
-<!-- HERO -->
-<section class="contact-hero">
-  <div class="contact-hero-inner">
-    <span class="tag">Hjemmesider</span>
-    <h1>Hjemmesider der<br>konverterer</h1>
-    <p>
-      Vi designer og udvikler moderne hjemmesider fra bunden i
-      HTML, CSS og JavaScript, bygget til performance, SEO og vækst.
-    </p>
-  </div>
-</section>
-
-<!-- CONTENT SPLIT -->
-<section class="contact-split">
-
-  <!-- INFO -->
-  <div class="contact-info">
-    <h2>Ikke templates. Ikke WordPress.</h2>
-    <p>
-      Din hjemmeside er ofte første indtryk af din forretning.
-      Derfor bygger vi alt fra bunden, uden tunge themes eller unødvendige plugins. Du får fuld indflydelse på design og behov.
-    </p>
-
-    <div class="contact-points">
-      <div>
-        <strong>⚡ Hurtig performance</strong>
-        <p>Let kode og optimeret struktur giver lynhurtige loadtider.</p>
-      </div>
-
-      <div>
-        <strong>📱 100% responsivt</strong>
-        <p>Perfekt oplevelse på mobil, tablet og desktop.</p>
-      </div>
-
-      <div>
-        <strong>🔍 SEO-klar struktur</strong>
-        <p>Ren HTML og korrekt opbygning, klar til Google fra dag ét.</p>
-      </div>
-
-      <div>
-        <strong>🎯 Konverteringsfokus</strong>
-        <p>Design og indhold der guider brugeren mod handling.</p>
+  <section class="page-hero">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="page-hero-content">
+      <div class="hero-eyebrow">Konverterende Hjemmesider</div>
+      <h1>En hjemmeside<br>der <em>arbejder</em><br>for dig</h1>
+      <p>Moderne, hurtige og konverteringsoptimerede hjemmesider bygget fra bunden. Ikke bare flotte — men bygget til at forvandle besøgende til kunder.</p>
+      <div class="hero-actions">
+        <a href="kontakt.html" class="btn-primary">Book gratis hjemmeside-snak →</a>
+        <a href="#hvad-vi-laver" class="btn-ghost">Hvad vi bygger</a>
       </div>
     </div>
-  </div>
+  </section>
 
-  <!-- CTA / INFO BOX -->
-  <div class="contact-form">
-    <div class="service-box">
-      <h3>Hvad får du?</h3>
-      <p>
-        En skræddersyet hjemmeside, bygget præcis til din forretning
-        uden begrænsninger.
-      </p>
-
-      <ul>
-        <li>✔ Custom design & kode</li>
-        <li>✔ HTML, CSS & JavaScript</li>
-        <li>✔ Let at udvide og vedligeholde</li>
-        <li>✔ Klar til annoncer & leadgenerering</li>
-      </ul>
-<br>
-      <a href="kontakt.html" class="btn">Få en hjemmeside der virker</a>
+  <section class="service-items fade-in" id="hvad-vi-laver">
+    <div class="service-items-glow"></div>
+    <div class="section-header">
+      <span class="section-tag">Hvad vi leverer</span>
+      <h2 class="section-title">Hjemmesider der <em>konverterer</em></h2>
     </div>
-  </div>
+    <div class="service-list">
+      <div class="service-item">
+        <div class="service-item-num">01</div>
+        <div class="service-item-body">
+          <h3>Strategi og struktur</h3>
+          <p>Inden vi skriver én linje kode kortlægger vi hvad din hjemmeside skal opnå, hvem den skal tale til, og hvilken rejse den besøgende skal igennem for at konvertere.</p>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-item-num">02</div>
+        <div class="service-item-body">
+          <h3>Design og UX</h3>
+          <p>Visuelt stærkt design der ikke bare ser godt ud, men guider den besøgende mod en handling. Hvert element på siden har et formål.</p>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-item-num">03</div>
+        <div class="service-item-body">
+          <h3>Hurtig og teknisk solid</h3>
+          <p>Hastighed er afgørende — både for brugeroplevelsen og for SEO. Vi bygger sider der loader hurtigt og scorer højt på Core Web Vitals.</p>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-item-num">04</div>
+        <div class="service-item-body">
+          <h3>Mobiloptimeret</h3>
+          <p>Størstedelen af dine besøgende kommer fra mobilen. Din hjemmeside ser perfekt ud og fungerer fejlfrit på alle skærmstørrelser.</p>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-item-num">05</div>
+        <div class="service-item-body">
+          <h3>SEO-fundament</h3>
+          <p>Vi bygger hjemmesider med det rigtige tekniske SEO-fundament fra start — så Google kan finde og indeksere dig korrekt fra dag ét.</p>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-item-num">06</div>
+        <div class="service-item-body">
+          <h3>Løbende support</h3>
+          <p>Vi forsvinder ikke når siden er live. Vi er tilgængelige for opdateringer, tilpasninger og optimering efterhånden som din forretning vokser.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</section>
+  <section class="service-why fade-in">
+    <div class="service-why-glow"></div>
+    <div class="service-why-inner">
+      <div class="service-why-left">
+        <span class="section-tag">Hvorfor det betyder noget</span>
+        <h2 class="section-title">Din hjemmeside er<br>din <em>bedste sælger</em></h2>
+        <p>En dårlig hjemmeside koster dig kunder hver eneste dag — også selvom du ikke kan se det. Besøgende der forlader siden efter 3 sekunder er leads du aldrig får.</p>
+        <p>Vi byggede hjemmesiden for Svendborg Bildetail og kombinerede det med SEO-arbejde. Resultatet var en #1 placering på Google for den mest relevante søgning i deres lokalområde og organiske leads der kommer ind uden annoncekroner.</p>
+        <a href="kontakt.html" class="btn-primary" style="margin-top:2rem; display:inline-flex;">Se hvad vi kan gøre →</a>
+      </div>
+      <div class="service-why-stats">
+        <div class="stat-card">
+          <div class="stat-num">#<span>1</span></div>
+          <div class="stat-label">Google for "bilrengøring svendborg"</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">0<span>→5+</span></div>
+          <div class="stat-label">Organiske leads pr. måned</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">100<span>%</span></div>
+          <div class="stat-label">Bygget fra bunden</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  © 2026 · SONDERBY MARKETING · Alle rettigheder forbeholdes · CVR: 46240332
-</footer>
+  <section class="cta fade-in">
+    <div class="cta-glow"></div>
+    <div class="cta-content">
+      <span class="section-tag" style="display:block;margin-bottom:1rem;">Kom i gang</span>
+      <h2>Klar til en hjemmeside<br><em>der faktisk konverterer?</em></h2>
+      <p>Book en gratis snak og fortæl os om din forretning. Vi giver dig et ærligt bud på hvad der skal til.</p>
+      <a href="kontakt.html" class="btn-primary">Book gratis hjemmeside-snak →</a>
+    </div>
+  </section>
 
-<script>
-  const burger = document.getElementById("burger");
-  const navLinks = document.getElementById("navLinks");
+  <footer>
+    <span>© 2026 SONDERBY<span class="orange-dot">.</span> MARKETING · Alle rettigheder forbeholdes</span>
+    <span>CVR: 46240332 · Tlf: <a href="tel:51937484">51 93 74 84</a></span>
+  </footer>
 
-  burger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
-</script>
-
+  <script>
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+    burger.addEventListener('click', () => { navLinks.classList.toggle('active'); burger.classList.toggle('open'); });
+    const observer = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
