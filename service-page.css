@@ -55,7 +55,7 @@
   top: 20%; right: -150px;
   width: 600px; height: 600px;
   background: radial-gradient(circle,
-    rgba(200, 70, 10, 0.08) 0%,
+    rgba(255, 255, 255, 0.08) 0%,
     transparent 65%
   );
   pointer-events: none;
@@ -85,7 +85,7 @@
   content: '';
   position: absolute;
   left: 0; right: 0; top: 0; bottom: 0;
-  background: rgba(232, 82, 10, 0.03);
+  background: rgba(255, 255, 255, 0.03);
   opacity: 0;
   transition: opacity 0.2s;
   pointer-events: none;
@@ -130,7 +130,7 @@
   bottom: -100px; left: -100px;
   width: 600px; height: 600px;
   background: radial-gradient(circle,
-    rgba(200, 70, 10, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 0%,
     transparent 65%
   );
   pointer-events: none;
